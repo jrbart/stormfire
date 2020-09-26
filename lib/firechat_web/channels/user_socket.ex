@@ -2,7 +2,7 @@ defmodule FirechatWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", FirechatWeb.RoomChannel
+    channel "room:*", FirechatWeb.RoomChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After
