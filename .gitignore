@@ -35,3 +35,6 @@ npm-debug.log
 
 # Ignore stupid backups I made for safety
 *.bak
+
+# Ignore VS Code stuff
+.vscode/
