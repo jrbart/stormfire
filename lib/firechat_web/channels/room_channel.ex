@@ -19,8 +19,8 @@ defmodule FirechatWeb.RoomChannel do
   end
 
   # Broadcasts to all connections
-  def handle_in("new_msg", %{"body" => body}, socket) do
-    broadcast!(socket, "new_msg", %{body: body})
+  def handle_in("new_msg", payload, socket) do
+    broadcast!(socket, "new_msg", payload)
     {:noreply, socket}
   end
 
