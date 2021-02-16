@@ -38,3 +38,4 @@ npm-debug.log
 
 # Ignore VS Code stuff
 .vscode/
+Crash Reports/client_id
